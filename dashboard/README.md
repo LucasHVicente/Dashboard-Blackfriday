@@ -1,4 +1,4 @@
-Dashboard-Blackfriday
+# Dashboard-Blackfriday: 
 [EN]
 Dashboard app built with ReactJS.
 Link: https://dashboard-blackfriday2020.netlify.app/
@@ -16,7 +16,7 @@ Um painel que informa o numero de tickets e o valor de revenue total do dia atua
 Os rankings de Revenues e Tickets.
 Lista de Transações feitas.
 
-Instalação/Setup
+# Instalação/Setup
 [EN]
 To run the application, you need NodeJS
 avaible at: https://nodejs.org/en/
