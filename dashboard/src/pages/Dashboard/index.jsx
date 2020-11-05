@@ -12,7 +12,7 @@ import TransactionsList from '../../components/TransactionsList';
 export default function Dashboard(){
     const [data, setData] = useState();
 
-    useEffect(()=>{
+     useEffect(()=>{
         api.get().then(response=>{
             console.log(response.data);
             setData(response.data)
@@ -22,16 +22,20 @@ export default function Dashboard(){
     return(
         <div className="main-container">
             <Header/>
-            <div className="content-container">
-                <div className="summary-rankings-container">
-                    <Summary summary={data.summary}/>
-                    <div className="rankings-container">
-                        <RevenuesRanking revenues={data.revenues_ranking}/>
-                        <TicketsRanking tickets={data.tickets_ranking} />
+            {
+                data?
+                <div className="content-container">
+                    <div className="summary-rankings-container">
+                        <Summary summary={data.summary}/>
+                        <div className="rankings-container">
+                            <RevenuesRanking revenues={data.revenues_ranking}/>
+                            <TicketsRanking tickets={data.tickets_ranking} />
+                        </div>
                     </div>
+                    <TransactionsList transactions={data.transactions}/>
                 </div>
-                <TransactionsList/>
-            </div>
+            : <p>Carregando dados ...</p>
+            }
         </div>
     )
 }

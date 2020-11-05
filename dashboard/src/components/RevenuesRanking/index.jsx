@@ -15,7 +15,7 @@ export default function RevenuesRanking(props){
             {
                 revenues.map(revenue=>{
                     return(
-                        <div className="revenue">
+                        <div className="revenue" key={revenue.id}>
                             <b className="store">{revenue.store_name}</b>
                             <p className="total">{revenue.total.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</p>
                         </div>

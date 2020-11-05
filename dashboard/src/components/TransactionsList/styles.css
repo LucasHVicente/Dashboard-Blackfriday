@@ -1,0 +1,21 @@
+.transactions-container{
+    width: 43%;
+    padding: 40px;
+}
+
+.transactions-container .transaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    margin: 20px 0;
+}
+.transactions-container .transaction .store{
+    color: #2a2a2a;
+    font-weight: 600;
+}
+.transactions-container .transaction .date{
+    line-height: 24px;
+    color: #ababab;
+    font-size: 12px;
+}
