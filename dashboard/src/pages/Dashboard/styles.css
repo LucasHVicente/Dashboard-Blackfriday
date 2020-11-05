@@ -1,0 +1,10 @@
+.content-container{
+    display: flex;
+}
+.summary-rankings-container{
+    width: 830px;
+}
+.summary-rankings-container .rankings-container{
+    display: flex;
+    justify-content: space-between;
+}
