@@ -22,9 +22,9 @@ Lista de Transações feitas.<br>
 [EN]<br>
 To run the application, you need NodeJS <br>
 avaible at: https://nodejs.org/en/<br>
-Then, run 'npm start' in dashboard folder<br>
+Then, run 'npm i' in dashboard folder to install the dependencies, and 'npm start' to start the project<br>
 
 [PT-BR]<br>
 Para  rodar o codigo fonte, é necessario possuir o NodeJS instalado na maquina.<br>
 Disponivel no link: https://nodejs.org/en/ <br>
-após a instalação do NodeJS é só executar o comando 'npm start' na pasta dashboard do projeto.
+após a instalação do NodeJS é preciso instalar as dependencias com o comando 'npm i' na pasta dashboard e em seguida 'npm start' para iniciar o projeto.
