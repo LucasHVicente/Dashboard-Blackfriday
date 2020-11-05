@@ -1,0 +1,17 @@
+.revenues-container{
+    background: #efefef;
+    width: 50%;
+    padding: 40px;
+}
+.revenues-container .title p{
+    color: #1e8628;
+}
+
+.revenues-container .revenue{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}
+.revenues-container .revenue p{
+    color: #666;
+}

@@ -14,6 +14,7 @@ export default function Dashboard(){
 
     useEffect(()=>{
         api.get().then(response=>{
+            console.log(response.data);
             setData(response.data)
         })
     }, []);
@@ -25,8 +26,8 @@ export default function Dashboard(){
                 <div className="summary-rankings-container">
                     <Summary summary={data.summary}/>
                     <div className="rankings-container">
-                        <RevenuesRanking/>
-                        <TicketsRanking/>
+                        <RevenuesRanking revenues={data.revenues_ranking}/>
+                        <TicketsRanking tickets={data.tickets_ranking} />
                     </div>
                 </div>
                 <TransactionsList/>

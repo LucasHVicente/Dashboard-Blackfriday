@@ -1,0 +1,18 @@
+.tickets-container{
+    background: #2a2a2a;
+    width: 50%;
+    padding: 40px;
+    color: #ffffff;
+}
+.tickets-container .title p{
+    color: #00de16;
+}
+
+.tickets-container .ticket{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}
+.tickets-container .ticket b{
+    color: #b8b9b8;
+}
