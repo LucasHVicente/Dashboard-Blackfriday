@@ -1,28 +1,28 @@
 # Dashboard-Blackfriday: 
-[EN]
-Dashboard app built with ReactJS.
-Link: https://dashboard-blackfriday2020.netlify.app/
-The dashboard consumes data from an api and show that data to the user.
-You are able to consult:
-A panel with the total of Tickets and total Revenue about today and yesterday.
-The rankings of Revenue and Tickets.
-A list of transactions.
+[EN]<br>
+Dashboard app built with ReactJS.<br>
+Link: https://dashboard-blackfriday2020.netlify.app/<br>
+The dashboard consumes data from an api and show that data to the user.<br>
+You are able to consult:<br>
+A panel with the total of Tickets and total Revenue about today and yesterday.<br>
+The rankings of Revenue and Tickets.<br>
+A list of transactions.<br>
 
-[PT-BR]
-Aplicação de dashboard feita usando ReactJS.
-Link para acesso ao Dashboard: https://dashboard-blackfriday2020.netlify.app/ O dashboard desenvolvido consome uma api afim de disponibilizar dados de uma maneira organizada para o usuario.
-No dashboard é possivel consultar:
-Um painel que informa o numero de tickets e o valor de revenue total do dia atual e do dia anterior.
-Os rankings de Revenues e Tickets.
-Lista de Transações feitas.
+[PT-BR]<br>
+Aplicação de dashboard feita usando ReactJS.<br>
+Link para acesso ao Dashboard: https://dashboard-blackfriday2020.netlify.app/ O dashboard desenvolvido consome uma api afim de disponibilizar dados de uma maneira organizada para o usuario.<br>
+No dashboard é possivel consultar:<br>
+Um painel que informa o numero de tickets e o valor de revenue total do dia atual e do dia anterior.<br>
+Os rankings de Revenues e Tickets.<br>
+Lista de Transações feitas.<br>
 
 # Instalação/Setup
-[EN]
-To run the application, you need NodeJS
-avaible at: https://nodejs.org/en/
-Then, run 'npm start' in dashboard folder
+[EN]<br>
+To run the application, you need NodeJS<br>
+avaible at: https://nodejs.org/en/<br>
+Then, run 'npm start' in dashboard folder<br>
 
-[PT-BR]
-Para rodar o codigo fonte, é necessario possuir o NodeJS instalado na maquina.
-Disponivel no link: https://nodejs.org/en/
-após a instalação do NodeJS é só executar o comando 'npm start' na pasta dashboard do projeto.
+[PT-BR]<br>
+Para rodar o codigo fonte, é necessario possuir o NodeJS instalado na maquina.<br>
+Disponivel no link: https://nodejs.org/en/<br>
+após a instalação do NodeJS é só executar o comando 'npm start' na pasta dashboard do projeto.<br>
