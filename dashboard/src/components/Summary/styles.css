@@ -1,10 +1,12 @@
 .summary-container{
     width: 100%;
     color: #05c718;
+    height: 280;
 }
 
 .summary-container .day {
     width: 20%;
+    height: 100%;
     background: #282828;
     display: flex;
     align-items: center;
@@ -16,6 +18,8 @@
     width: 100%;
     background: #323232;
     display: flex;
+    height: 150px;
+    align-items: center;
 
 }
 .summary-container .totals .revenue{
@@ -29,6 +33,24 @@
 }
 
 .summary-container .totals .value{
+    display: flex;
+    align-items: center;
+    
+}
+.summary-container .totals .value h1{
+    font-size: 42px;
     color: #FFF;
+    font-weight: 700;
 }
 
+.summary-container .totals .value-yesterday{
+    
+    color: #FFF;
+    font-weight: 400;
+}
+
+@media(max-width:1000px){
+    .summary-container .totals .value{
+        font-size: 32px;
+    }
+}
