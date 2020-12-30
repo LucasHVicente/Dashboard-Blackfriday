@@ -10,7 +10,7 @@ A list of transactions. <br>
 
 [PT-BR]<br>
 Aplicação de dashboard feita usando ReactJS.<br>
-Link para acesso ao Dashboard: https://dashboard-blackfriday2020.netlify.app/
+Link para acesso ao Dashboard: https://dashboard-blackfriday2020.netlify.app/ <br>
 O dashboard desenvolvido consome uma api afim de disponibilizar dados de uma maneira organizada para o usuario.<br>
 No dashboard é possivel consultar:<br>
 Um painel que informa o numero de tickets e o valor de revenue total do dia atual e do dia anterior.<br>
